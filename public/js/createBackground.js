@@ -6,7 +6,7 @@ bgImage.onload = function(){
 	bgReady = true;
 };
 
-bgImage.src = "../imgs/GameBackground.jpg";
+bgImage.src = "imgs/GameBackground.jpg";
 
 var heroReady = false;
 var heroImage = new Image();
@@ -14,12 +14,12 @@ var heroImage = new Image();
 heroImage.onload = function(){
 	heroReady = true;
 }
-bgImage.src = "../imgs/hero_idle.jpg";
+heroImage.src = "imgs/hero_idle.jpg";
 
-var monsterRead = false;
+var monsterReady = false;
 var monsterImage = new Image();
 
 monsterImage.onload = function(){
-	monsterRead = true;
+	monsterReady = true;
 }
-bgImage.src = "../imgs/monster_idle.jpg";
+monsterImage.src = "imgs/monster_idle.jpg";

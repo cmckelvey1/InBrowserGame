@@ -9,5 +9,5 @@ var main = function(){
 	then = now;
 
 	//REQUEST TO DO THIS GAIN
-	requestAnimationFraim(main);
+	requestAnimationFrame(main);
 };
